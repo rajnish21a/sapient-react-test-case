@@ -1,0 +1,62 @@
+.CharacterCard__ImgWrapper{
+  position: relative;
+    width: 225px;
+    height: 300px;
+}
+
+.CharacterCard__ImgWrapper .Card_image {
+  width: 100%;
+  background: rgb(32, 35, 41);
+}
+
+.CharacterCard__ImgWrapper .Card_image img {
+  opacity: 1;
+  margin: 0px;
+  transition: opacity 0.5s ease 0s;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+img {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 0.8125rem;
+}
+
+img {
+  border-style: none;
+}
+
+
+.CharacterCard__Title {
+  width: 100%;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 0px;
+  background: rgb(32, 35, 41);
+  padding: 0.625rem;
+}
+
+.CharacterCard__Name {
+  color: rgb(245, 245, 245);
+  font-size: 1.625rem;
+  font-weight: 400;
+  font-stretch: expanded;
+  margin: 0px;
+}
+
+.CharacterCard__Description {
+  color: rgb(187, 187, 187);
+  font-size: 0.875rem;
+  margin: 0px;
+}

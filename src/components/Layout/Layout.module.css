@@ -1,0 +1,19 @@
+.Showcase__Wrapper {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: calc(60vh - 80px);
+    padding: 1.875rem;
+    background: rgb(32, 35, 41);
+}
+
+
+.Showcase__Inner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1260px;
+  min-height: 40vh;
+}
