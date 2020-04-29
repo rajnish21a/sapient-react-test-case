@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Filter.module.css";
+//import classes from "./Filter.module.css";
 import Aux from "../../../hoc/Auxiliary/Auxi";
 import FilterCheckBox from "./FilterCheckBox/FilterCheckBox";
 

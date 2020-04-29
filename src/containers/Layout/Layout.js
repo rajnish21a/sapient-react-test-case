@@ -1,12 +1,12 @@
 import React,{Component} from "react";
 import Aux from "../../hoc/Auxiliary/Auxi"
 import classes from "./Layout.module.css";
-import CharacterCard from "../CharacterCard/CharacterCard";
+import CharacterCard from "../../components/CharacterCard/CharacterCard";
 import axios from "../../hoc/axios-order";
-import Filters from "../Filters/Filters";
-import Sort from "../Sort/Sort";
-import Search from "../Search/Search";
-import SelectedFilters from "../SelectedFilters/SelectedFilters";
+import Filters from "../../components/Filters/Filters";
+import Sort from "../../components/Sort/Sort";
+import Search from "../../components/Search/Search";
+import SelectedFilters from "../../components/SelectedFilters/SelectedFilters";
 
 
 

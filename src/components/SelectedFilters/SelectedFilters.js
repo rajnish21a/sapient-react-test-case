@@ -1,5 +1,5 @@
 import React from "react";
-import Aux from "../../hoc/Auxiliary/Auxi";
+//import Aux from "../../hoc/Auxiliary/Auxi";
 
 const searchFilters= (props)=>{
   const searchFilter = [...props.filterListSearch].map((unitFilter, idxxx)=>{
