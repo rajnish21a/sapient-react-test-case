@@ -6,7 +6,7 @@ import Aux from "../../../../hoc/Auxiliary/Auxi";
 
 
 const filterCheckBox = (props)=>{
-  const filterCheckB  = [...props.inputHeads].map((filtercheckboxes,idxx)=>{
+  const filterCheckB  = props.inputHeads.map((filtercheckboxes,idxx)=>{
     return (
         <div className="form-check" key={'checkbox'+idxx} >
           <label className="form-check-label">

@@ -2,7 +2,7 @@ import React from "react";
 //import Aux from "../../hoc/Auxiliary/Auxi";
 
 const searchFilters= (props)=>{
-  const searchFilter = [...props.filterListSearch].map((unitFilter, idxxx)=>{
+  const searchFilter = props.filterListSearch.map((unitFilter, idxxx)=>{
     return <button type="button" className="btn btn-dark mr-2" key={'selected_filter'+idxxx}>{unitFilter}</button>
   })
 
